@@ -35,21 +35,3 @@ class SizerUtil {
     // Sets ScreenType
   }
 }
-
-class MathUtilities {
-  static screenWidth(BuildContext context) => MediaQuery.of(context).size.width;
-  static screenHeight(BuildContext context) =>
-      MediaQuery.of(context).size.height;
-
-  static screenWidthDensity(BuildContext context) =>
-      MediaQuery.of(context).devicePixelRatio;
-  static safeAreaTopHeight(BuildContext context) =>
-      MediaQuery.of(context).padding.top;
-  static safeAreaBottomHeight(BuildContext context) =>
-      MediaQuery.of(context).padding.bottom;
-}
-
-
-/// Type of Device
-///
-

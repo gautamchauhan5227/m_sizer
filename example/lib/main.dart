@@ -20,8 +20,8 @@ class MyApp extends StatelessWidget {
           home: Scaffold(
             body: Center(
               child: Container(
-                height: 48.h,
-                width: 313.w,
+                height: 48.hPX,
+                width: 313.wPX,
                 color: Colors.red,
               ),
             ),

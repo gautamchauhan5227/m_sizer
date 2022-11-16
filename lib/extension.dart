@@ -1,6 +1,6 @@
 part of m_sizer;
 
 extension SizerExt on num {
-  double get h => this * SizerUtil.height;
-  double get w => this * SizerUtil.width;
+  double get hPX => this * SizerUtil.height;
+  double get wPX => this * SizerUtil.width;
 }
