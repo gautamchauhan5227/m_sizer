@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       builder: (context, orientation) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'Sizer',
+          title: 'MSizer',
           theme: ThemeData.light(),
           home: Scaffold(
             body: Center(
