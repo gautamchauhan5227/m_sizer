@@ -1,40 +1,38 @@
-This package to issue manage only mobile device height and width in PX.
+# m_sizer
 
-## Features
+m_sizer for easy way to give widget width , height and font size in px.
+ 
 
-You give easy to give height and width in give on figma file and other design file.
+## Installation
 
-## Getting started
+Use the package manager [pub](https://pub.dev/packages/m_sizer) to install m_sizer.
 
-Step: 1
-    MSizer wrap with MaterialApp.
-Step: 2
-    Use for height, ex. height=80.hPX
-    Use for width, ex. width = 80.wPX
+```bash
+flutter pub add m_sizer
+```
 
 ## Usage
 
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MSizer(
-      builder: (context, orientation) {
-        return MaterialApp(
-          debugShowCheckedModeBanner: false,
-          title: 'Sizer',
-          theme: ThemeData.light(),
-          home: Scaffold(
-            body: Center(
-              child: Container(
-                height: 48.hPX,
-                width: 313.wPX,
-                color: Colors.red,
-              ),
-            ),
-          ),
-        );
-      },
-    );
-  }
-}
+```python
+import 'package:m_sizer/m_sizer.dart';
 
+# width
+width = 10.wPX;
+
+# height
+height = 10.hPX;
+
+# font
+fontSize = 10.fPX;
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
