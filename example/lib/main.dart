@@ -23,6 +23,14 @@ class MyApp extends StatelessWidget {
                 height: 48.hPX,
                 width: 313.wPX,
                 color: Colors.red,
+                alignment: Alignment.center,
+                child: Text(
+                  "Check font",
+                  style: TextStyle(
+                    fontSize: 18.fPX,
+                    color: Colors.white,
+                  ),
+                ),
               ),
             ),
           ),
